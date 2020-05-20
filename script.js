@@ -128,11 +128,11 @@ function initSound(){
 	if(!is_playing){
 		osc.start(0.1);
 		is_playing = true;
-		sound_DOM.innerText = "Sound ON."
+		sound_DOM.innerText = "Sound OFF."
 	}else{
 		osc.stop(0.1);
 		is_playing = false;
-		sound_DOM.innerText = "Sound OFF."
+		sound_DOM.innerText = "Sound ON."
 	}
 }
 
